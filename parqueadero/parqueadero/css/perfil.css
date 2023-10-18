@@ -1,0 +1,122 @@
+*{
+    text-decoration: none; /* Quítale el subrayado */
+
+}
+body{
+    background-color: #042A2B;
+}
+/* ------------------------------- */
+/* perfil */
+/* Resetear estilos por defecto del navegador */
+body, h1, h2, nav, a, button, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(52, 223, 58, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+/* Estilos para el perfil */
+#user-profile {
+    background-color: rgb(180, 0, 0);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+button[type="button"] {
+    padding: 10px 20px;
+    background-color: #3F0D12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #7b0a15;
+}
+
+/* Resetear estilos por defecto del navegador */
+body, h1, h2, ul, li, button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos generales */
+body {
+   
+    font-size: 16px;
+    padding-bottom: 200px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(2, 158, 77, 0.9); /* Fondo blanco con transparencia */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la lista de servicios */
+#lista-servicios {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#lista-servicios li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px;
+    background-color: #3F0D12;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #7b0a15;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

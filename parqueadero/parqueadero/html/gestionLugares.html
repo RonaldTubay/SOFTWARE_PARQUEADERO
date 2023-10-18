@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/gestionLugares.css">
+    <title>Registro de Lugares</title>
+</head>
+<body>
+    <h1>Registro de Lugares</h1>
+
+    <!-- Formulario para registrar lugares -->
+    <form id="registroForm">
+        <label for="idLugar">ID del Lugar:</label>
+        <input type="text" id="idLugar" required>
+        <label for="disponibilidad">Disponibilidad:</label>
+        <select id="disponibilidad" required>
+            <option value="Disponible">Disponible</option>
+            <option value="Ocupado">Ocupado</option>
+        </select>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" required>
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" required>
+        <button type="button" onclick="registrarLugar()">Registrar Lugar</button>
+    </form>
+
+    <!-- Lista para mostrar los lugares registrados -->
+    <h1>Lugares registrados:</h1>
+    <ul id="listaLugares"></ul>
+
+    <!-- Botón para regresar a las opciones -->
+    <button type="button" id="regresar-opciones">Regresar a Opciones</button>
+
+    <script src="../javascript/gestionLugares.js"></script>
+</body>
+</html>

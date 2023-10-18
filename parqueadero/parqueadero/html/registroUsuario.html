@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Sesión</title>
+    <link rel="stylesheet" href="../css/registroUsuario.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de Usuarios</h2>
+        <!-- form de registro de datos  -->
+        <form id="registro-form">
+            <div class="form-group">
+                <label for="username">Nombre de usuario:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="nombres">Nombres:</label>
+                <input type="text" id="nombres" name="nombres" required>
+            </div>
+            <div class="form-group">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="celular">Número de celular:</label>
+                <input type="tel" id="celular" name="celular" required>
+            </div>
+            <div class="form-group">
+                <label for="cedula">Número de cedula:</label>
+                <input type="number" id="cedula" name="cedula" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirmar contraseña:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit">Registrar</button>
+        </form>
+        <!-- mensaje que se muestra por si ocurré algún fallo en los parametros que se validan en el javascript -->
+        <div id="message"></div>
+        <!-- botones para regresar -->
+        <button type="button" id="regresar-principal">Regresar al Inicio</button>
+        <button type="button" id="regresar-sesionUsuario">Inicio de Sesión</button>
+    </div>
+    <script src="../javascript/registroUsuario.js"></script>
+</body>
+</html>

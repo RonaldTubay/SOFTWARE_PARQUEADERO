@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sesionAdmin.css">
+    <title>Login administrador</title>
+</head>
+<body>
+    <h1>Administrador</h1>
+    <!-- form de administrado, el usuario es admin y la contraseña es 123, está validado en el javascript-->
+    <form id="loginForm" onsubmit="return validarFormulario()">
+        <label for="useradmin">Usuario:</label>
+        <input type="text" id="useradmin" name="useradmin" required><br><br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Iniciar Sesión">
+    </form>
+    <!-- boton para regresar -->
+    <button type="button" id="regresar-sesionUsuario">Iniciar sesión como usuario</button>
+    <script src="../javascript/sesionAdmin.js"></script>
+</body>
+</html>

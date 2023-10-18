@@ -1,0 +1,84 @@
+/* Resetear estilos por defecto del navegador */
+body, h1, form, label, input, button, ul, li, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #042A2B;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+#registroForm {
+    background-color: #b62222;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #2A4D14;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #74ff58;
+}
+
+/* Estilos para la lista de empleados registrados */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #be1d1d;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Personaliza estos estilos según tus preferencias */

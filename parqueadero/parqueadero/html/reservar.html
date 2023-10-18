@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Servicios</title>
+    <link rel="stylesheet" href="../css/reservar.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de reservas</h2>
+        <!-- Formulario para registrar las reservas -->
+        <form id="registro-reservas-form">
+            <div class="form-group">
+                <label for="id-lugar">ID del Lugar:</label>
+                <input type="text" id="id-lugar" name="id-lugar" required>
+            </div>
+            <div class="form-group">
+                <label for="fecha-reserva">Fecha de Reserva:</label>
+                <input type="date" id="fecha-reserva" name="fecha-reserva" required>
+            </div>
+            <div class="form-group">
+                <label for="hora-inicio">Hora de Inicio:</label>
+                <input type="time" id="hora-inicio" name="hora-inicio" required>
+            </div>
+            <div class="form-group">
+                <label for="hora-final">Hora de Finalización:</label>
+                <input type="time" id="hora-final" name="hora-final" required>
+            </div>
+            <div class="form-group">
+                <label for="cedula">Cédula:</label>
+                <input type="text" id="cedula" name="cedula" required pattern="[0-9]{10}">
+            </div>
+            <div class="form-group">
+                <label for="nombres">Nombres:</label>
+                <input type="text" id="nombres" name="nombres" required>
+            </div>
+            <div class="form-group">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+            <button type="submit">Registrar Reserva</button>
+        </form>
+        <button type="button" id="regresarPerfilButton">Regresar al perfil</button>
+    </div>
+    <script src="../javascript/reservar.js"></script>    
+</body>
+</html>
